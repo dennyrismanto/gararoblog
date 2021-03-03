@@ -16,3 +16,15 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/', function () {
+    return view('name');
+});
+
+Route::get('/', function () {
+    return view('email');
+});
+
+Route::get('/', function () {
+    return view('profile');
+});
